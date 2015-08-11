@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $('#submit').on('click',function(){
-    var name = $('#name').val();
-    var shout = $('#shout').val();
-    var date = getDate();
+    var name       = $('#name').val();
+    var shout      = $('#shout').val();
+    var date       = getDate();
     var dataString = 'name=' + name + '&shout=' + shout + '&date=' + date;
 
     //Validation

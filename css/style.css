@@ -1,13 +1,12 @@
 *{
   margin: 0;
   padding: 0;
-
 }
 
 body{
   font-family: "Arial", sans-serif;
-  background: #000;
-  color: #fff;
+  background: #91a67c;
+  color: #F2f0c9;
   font-size: 14px;
 }
 
@@ -15,19 +14,19 @@ body{
   width: 700px;
   margin: 40px auto;
   overflow: auto;
-  border: #ccc 1px solid;
+  border: #acd9a9 3px solid;
 
 }
 
 header{
-  background: #333;
+  background: #8c6745;
   padding: 10px;
   text-align: center;
 }
 
 #shouts{
   height: 200px;
-  border: #333 1px solid;
+  border: #acd9a9 1px solid;
   margin: 30px;
   padding: 15px;
 
@@ -39,12 +38,13 @@ header{
 }
 footer{
   padding: 10px;
-  background: #333;
+  background: #8c6745;
   text-align: center;
 }
 input#name, input#shout{
   padding: 3px;
-  height: 15px
+  height: 15px;
+  background-color: f2f0c9;
 }
 input#name{
   width: 130px;
@@ -57,7 +57,7 @@ input#shout{
 input#submit{
   padding: 5px 10px;
   border: 0;
-  background: #666;
+  background: #acd9a9;
   color: #fff;
   cursor: pointer;
 }
